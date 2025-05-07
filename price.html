@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Prediction</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <h1 class="heading">Salary Prediction</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <td><label for="Age">Age:</label></td>
+                <td><input type="number" id="Age"></td> 
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td><input type="text" id="Gender"></td>
+            </tr>
+            <tr>
+                <td><label for="Education_Level">Education Level:</label></td>
+                <td><input type="text" id="Education Level"></td>  
+            </tr>
+            <tr>
+                <td><label for="Job_Title">Job Title:</label></td>
+                <td><input type="text" id="Job Title"></td>  
+            </tr>
+            <tr>
+                <td><label for="Experience">Years of Experience:</label></td>
+                <td><input type="number" id="Experience"></td>
+            </tr>
+        </table>
+        <button class="btn" onclick="predictSalary()">Predict Salary</button><br><br>
+        <p id="predictionSalary"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
